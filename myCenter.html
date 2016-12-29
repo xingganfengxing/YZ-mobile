@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="Description" content="" />
+		<meta name="Keywords" content="" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<!--清理缓存-->
+		<meta http-equiv="Cache-Control" content="no-cache">
+		<!--清理缓存-->
+		<meta http-equiv="Expires" content="0">
+		<!--清理缓存-->
+		<meta name="format-detection" content="telephone=no" />
+		<!--忽略将页面中的数字识别为电话号码-->
+		<meta name="format-detection" content="email=no" />
+		<!--忽略Android平台中对邮箱地址的识别-->
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<!--当网站添加到主屏幕快速启动方式，可隐藏地址栏，仅针对ios的safari-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<!--将网站添加到主屏幕快速启动方式，仅针对ios的safari顶端状态条的样式-->
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/sm.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/sm-extend.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/myCustom.css" />
+		<link href="images/" rel="SHORTCUT ICON" />
+		<!--小图标-->
+		<script src="js/zepto_1.1.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/sm.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/sm-extend.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/fx.js"></script>
+		<title>易猪家居装修风水服务平台</title>
+	</head>
+
+	<body>
+		<div class="page-group">
+			<div class="page page-current" id="myCenter">
+
+				<!-- 工具栏 -->
+				<nav class="bar bar-tab">
+					<a class="tab-item external" href="index.html">
+						<span class="icon icon-home"></span>
+						<span class="tab-label">首页</span>
+					</a>
+					<a class="tab-item external" href="master.html">
+						<span class="icon icon-friends"></span>
+						<span class="tab-label">大师团</span>
+					</a>
+					<a class="tab-item external" href="video.html">
+						<span class="icon icon-caret" style="transform: rotate(-90deg);-webkit-transform: rotate(-90deg);"></span>
+						<span class="tab-label">视频</span>
+					</a>
+					<a class="tab-item external active" href="myCenter.html">
+						<span class="icon icon-me"></span>
+						<span class="tab-label">我的</span>
+					</a>
+				</nav>
+				<!--内容区-->
+				<div class="content">
+					<div class="personinfo text-center">
+						<div class="person-bar">
+							<img src="img/vip.png" class="person-icon" />
+							<div style="font-size: .75rem;margin-top: .25rem;">姓名</div>
+						</div>
+					</div>
+					<div class="list-block" style="font-size: .75rem;margin: .5rem 0;">
+						<ul>
+							<li>
+								<a href="#myOrder" class="item-link item-content">
+									<div class="item-media">
+										<img src="img/dd01.png" class="item-media-icon" />
+									</div>
+									<div class="item-inner">
+										<div class="item-title">我的订单</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#myBook" class="item-link item-content">
+									<div class="item-media">
+										<img src="img/dd05.png" class="item-media-icon" />
+									</div>
+									<div class="item-inner">
+										<div class="item-title">我的预约</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#myCollection" class="item-link item-content">
+									<div class="item-media">
+										<img src="img/dd02.png" class="item-media-icon" />
+									</div>
+									<div class="item-inner">
+										<div class="item-title">我的收藏</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="tel:10000;" class="item-link item-content">
+									<div class="item-media">
+										<img src="img/dd04.png" class="item-media-icon" />
+									</div>
+									<div class="item-inner">
+										<div class="item-title">咨询客服</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#myInfo" class="item-link item-content">
+									<div class="item-media">
+										<img src="img/dd06.png" class="item-media-icon" />
+									</div>
+									<div class="item-inner">
+										<div class="item-title">设置</div>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!--个人信息-->
+			<div class="page" id="myInfo">
+				<!-- 标题栏 -->
+				<header class="bar bar-nav">
+					<a href="#" class="pull-left white back"><span class="icon icon-left"></span></a>
+					<h1 class="title bgOrange">个人信息</h1>
+				</header>
+				<div class="content">
+					<div class="list-block" style="font-size: .75rem;margin: .5rem 0;">
+						<ul>
+							<li>
+								<a href="#" class="item-link item-content">
+									<div class="item-inner">
+										<div class="item-title">头像</div>
+										<img src="img/vip.png" class="person-icon" />
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#modify_myInfo" class="item-link item-content">
+									<div class="item-inner">
+										<div class="item-title">昵称</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#modify_myInfo" class="item-link item-content">
+									<div class="item-inner">
+										<div class="item-title">真实姓名</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#modify_myInfo" class="item-link item-content">
+									<div class="item-inner">
+										<div class="item-title">手机</div>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+			<!--修改个人信息-->
+			<div class="page" id="modify_myInfo">
+				<!-- 标题栏 -->
+				<header class="bar bar-nav">
+					<a href="#" class="pull-left white back"><span class="icon icon-left"></span></a>
+					<h1 class="title bgOrange">个人信息修改</h1>
+				</header>
+				<!--内容区-->
+				<div class="content">
+					<div class="list-block" style="font-size: .75rem;margin: .5rem 0;">
+						<ul>
+							<li>
+								<div class="item-content">
+									<div class="item-inner">
+										<div class="item-title label">昵称</div>
+										<div class="item-input">
+											<input type="text" placeholder="请输入您的昵称" style="font-size: .75rem;">
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-content">
+									<div class="item-inner">
+										<div class="item-title label">真实姓名</div>
+										<div class="item-input">
+											<input type="text" placeholder="请输入您的真实姓名" style="font-size: .75rem;">
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-content">
+									<div class="item-inner">
+										<div class="item-title label">手机</div>
+										<div class="item-input">
+											<input type="text" placeholder="请输入您的手机号码" style="font-size: .75rem;">
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<a href="javascritp:;" class="button button-big button-fill bgOrange">修改</a>
+				</div>
+			</div>
+
+			<!--我的收藏-->
+			<div class="page" id="myCollection">
+				<!-- 标题栏 -->
+				<header class="bar bar-nav">
+					<a href="#" class="pull-left white back"><span class="icon icon-left"></span></a>
+					<h1 class="title bgOrange">我的收藏</h1>
+				</header>
+				<!--内容区-->
+				<div class="content">
+					<!--tab-->
+					<div class="buttons-tab">
+						<a href="#tab1" class="tab-link active button">风水师</a>
+						<a href="#tab2" class="tab-link button">视频</a>
+						<a href="#tab3" class="tab-link button">案例</a>
+					</div>
+					<div class="tabs">
+						<div id="tab1" class="tab active">
+							<div class="list-block" style="font-size: .75rem;margin:.5rem 0;">
+								<ul>
+									<li>
+										<a href="#" class="item-link item-content">
+											<div class="item-media">
+												<img src="img/vip.png" class="item-media-icon">
+											</div>
+											<div class="item-inner">
+												<div class="item-title">风水师</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="item-link item-content">
+											<div class="item-media">
+												<img src="img/vip.png" class="item-media-icon">
+											</div>
+											<div class="item-inner">
+												<div class="item-title">风水师</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="item-link item-content">
+											<div class="item-media">
+												<img src="img/vip.png" class="item-media-icon">
+											</div>
+											<div class="item-inner">
+												<div class="item-title">风水师</div>
+											</div>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div id="tab2" class="tab">
+							<div class="list-block media-list" style="margin:.5rem 0;">
+								<ul>
+									<li>
+										<a href="#" class="item-content">
+											<div class="item-media">
+												<img src="img/ls1.png" style="width: 4rem;height: 4rem;">
+											</div>
+											<div class="item-inner">
+												<div class="item-text">视频视频视频视频视频视频视频视频视频视频视频视频视频视频视频视频</div>
+												<div class="video-icon">
+													<span class="icon icon-caret"></span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="item-content">
+											<div class="item-media">
+												<img src="img/ls1.png" style="width: 4rem;height: 4rem;">
+											</div>
+											<div class="item-inner">
+												<div class="item-text">视频视频视频视频视频视频视频视频视频视频视频视频视频视频视频视频</div>
+												<div class="video-icon">
+													<span class="icon icon-caret"></span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="item-content">
+											<div class="item-media">
+												<img src="img/ls1.png" style="width: 4rem;height: 4rem;">
+											</div>
+											<div class="item-inner">
+												<div class="item-text">视频视频视频视频视频视频视频视频视频视频视频视频视频视频视频视频</div>
+												<div class="video-icon">
+													<span class="icon icon-caret"></span>
+												</div>
+											</div>
+										</a>
+
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div id="tab3" class="tab">
+							<div class="list-block media-list" style="font-size: .75rem;margin:.5rem 0;">
+								<ul>
+									<li>
+										<a href="#">
+											<img src="img/geo01.png" style="width: 100%;height: 10rem;" />
+											<div class="case-mark"></div>
+											<div class="case-title">案例介绍案例介绍案例介绍案例介绍案例介绍</div>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="img/geo01.png" style="width: 100%;height: 10rem;" />
+											<div class="case-mark"></div>
+											<div class="case-title">案例介绍案例介绍案例介绍案例介绍案例介绍</div>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="img/geo01.png" style="width: 100%;height: 10rem;" />
+											<div class="case-mark"></div>
+											<div class="case-title">案例介绍案例介绍案例介绍案例介绍案例介绍</div>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--我的订单-->
+			<div class="page" id="myOrder">
+				<!-- 标题栏 -->
+				<header class="bar bar-nav">
+					<a href="#" class="pull-left white back"><span class="icon icon-left"></span></a>
+					<h1 class="title bgOrange">我的订单</h1>
+				</header>
+				<!--内容区-->
+				<div class="content">
+					<!--tab-->
+					<div class="buttons-tab">
+						<a href="#tab_1" class="tab-link active button">全部</a>
+						<a href="#tab_2" class="tab-link button">待接受</a>
+						<a href="#tab_3" class="tab-link button">待完成</a>
+						<a href="#tab_4" class="tab-link button">已完成</a>
+					</div>
+
+					<div class="tabs">
+						<div id="tab_1" class="tab active">
+							<div class="card">
+								<div class="card-header">
+									<span>风水师的姓名</span>
+									<span class="orange">等待接受</span>
+								</div>
+								<div class="card-content">
+									<div class="list-block media-list">
+										<ul>
+											<li>
+												<a href="#" class="item-content">
+													<div class='item-media'>
+														<img src='img/ls1.png' style='width: 4rem;'></div>
+													<div class='item-inner'>
+														<div class='item-text'>内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</div>
+														<div class="item-subtitle orange">¥ 1000</div>
+													</div>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="card-footer" style="justify-content: flex-end;-webkit-justify-content:flex-end">
+									<a href="javascript:;" class="button button-fill btn-default">取消订单</a>
+									<a href="orderDetails.html" class="button bgOrange button-fill ml10">订单详情</a>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header">
+									<span>风水师的姓名</span>
+									<span class="orange">等待完成</span>
+								</div>
+								<div class="card-content">
+									<div class="list-block media-list">
+										<ul>
+											<li>
+												<a href="#" class="item-content">
+													<div class='item-media'>
+														<img src='img/ls1.png' style='width: 4rem;'></div>
+													<div class='item-inner'>
+														<div class='item-text'>内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</div>
+														<div class="item-subtitle orange">¥ 1000</div>
+													</div>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="card-footer" style="justify-content: flex-end;-webkit-justify-content:flex-end">
+									<a href="javascript:;" class="button button-fill btn-default">取消订单</a>
+									<a href="orderDetails.html" class="button bgOrange button-fill ml10">订单详情</a>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header">
+									<span>风水师的姓名</span>
+									<span class="orange">已完成</span>
+								</div>
+								<div class="card-content">
+									<div class="list-block media-list">
+										<ul>
+											<li>
+												<a href="#" class="item-content">
+													<div class='item-media'>
+														<img src='img/ls1.png' style='width: 4rem;'></div>
+													<div class='item-inner'>
+														<div class='item-text'>内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</div>
+														<div class="item-subtitle orange">¥ 1000</div>
+													</div>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="card-footer" style="justify-content: flex-end;-webkit-justify-content:flex-end">
+									<a href="evalOrder.html" class="button bgOrange button-fill">去评价</a>
+								</div>
+							</div>
+
+						</div>
+						<div id="tab_2" class="tab">2</div>
+						<div id="tab_3" class="tab">3</div>
+						<div id="tab_4" class="tab">4</div>
+					</div>
+
+				</div>
+			</div>
+         
+            <!--我的预约-->
+            <div class="page" id="myBook">
+            	<!-- 标题栏 -->
+				<header class="bar bar-nav">
+					<a href="#" class="pull-left white back"><span class="icon icon-left"></span></a>
+					<h1 class="title bgOrange">我的预约</h1>
+				</header>
+				<!--内容区-->
+				<div class="content">
+					<!--tab-->
+					<div class="buttons-tab">
+						<a href="#tab_4" class="tab-link active button">全部</a>
+						<a href="#tab_5" class="tab-link button">待处理</a>
+						<a href="#tab_6" class="tab-link button">已回复</a>
+						<a href="#tab_7" class="tab-link button">已完成</a>
+					</div>
+
+					<div class="tabs">
+						<div id="tab_4" class="tab active">
+							<div class="card">
+								<div class="card-header">
+									<span>预约人姓名</span>
+									<span class="orange">已回复</span>
+								</div>
+								<div class="card-content">
+									<div class="card-content-inner">
+										<div class="list-block media-list">
+										<ul>
+											<li>
+												<a href="#" class="item-content">
+													<div class='item-media'>
+														<img src='img/ls1.png' style='width: 4rem;'></div>
+													<div class='item-inner'>
+														<div class="item-title-row">
+											                <div class="item-title">风水设计</div>
+											            </div>
+														<div class='item-text'>需求：内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</div>													
+													</div>
+												</a>
+											</li>
+										</ul>
+									</div>
+									</div>
+								</div>
+								<div class="card-footer" style="justify-content: flex-end;-webkit-justify-content:flex-end">
+										<a href="javascript:;"class="button button-fill btn-default">取消预约</a>
+										<a href="bookDetails.html" class="button button-fill bgOrange ml10">预约详情</a>			
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header">
+									<span>预约人姓名</span>
+									<span class="orange">待处理</span>
+								</div>
+								<div class="card-content">
+									<div class="card-content-inner">
+										<div class="list-block media-list">
+										<ul>
+											<li>
+												<a href="#" class="item-content">
+													<div class='item-media'>
+														<img src='img/ls1.png' style='width: 4rem;'></div>
+													<div class='item-inner'>
+														<div class="item-title-row">
+											                <div class="item-title">风水设计</div>
+											            </div>
+														<div class='item-text'>需求：内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</div>													
+													</div>
+												</a>
+											</li>
+										</ul>
+									</div>
+									</div>
+								</div>
+								<div class="card-footer" style="justify-content: flex-end;-webkit-justify-content:flex-end">
+										<a href="javascript:;"class="button button-fill btn-default">取消预约</a>
+										<a href="bookDetails.html" class="button button-fill bgOrange ml10">预约详情</a>			
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header">
+									<span>预约人姓名</span>
+									<span class="orange">已完成</span>
+								</div>
+								<div class="card-content">
+									<div class="card-content-inner">
+										<div class="list-block media-list">
+										<ul>
+											<li>
+												<a href="#" class="item-content">
+													<div class='item-media'>
+														<img src='img/ls1.png' style='width: 4rem;'></div>
+													<div class='item-inner'>
+														<div class="item-title-row">
+											                <div class="item-title">风水设计</div>
+											            </div>
+														<div class='item-text'>需求：内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</div>													
+													</div>
+												</a>
+											</li>
+										</ul>
+									</div>
+									</div>
+								</div>
+								<div class="card-footer" style="justify-content: flex-end;-webkit-justify-content:flex-end">
+										<a href="bookDetails.html" class="button button-fill bgOrange ml10">预约详情</a>			
+								</div>
+							</div>
+						</div>
+						<div id="tab_5" class="tab">2</div>
+						<div id="tab_6" class="tab">3</div>
+						<div id="tab_7" class="tab">4</div>
+						
+					</div>
+				</div>
+				
+				
+            </div>
+		</div>
+		<script>
+			$(function() {
+				$(document).on("pageInit", "#myCenter", function(e, id, page) {
+					console.log(page);
+				});
+				$(document).on("pageInit", "#myOrder", function(e, id, page) {
+					console.log(page);
+				});
+
+				$.init();
+			});
+		</script>
+	</body>
+
+</html>

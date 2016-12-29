@@ -1,0 +1,276 @@
+@charset "utf-8";
+/*修好工具栏的active颜色*/
+.bar-tab .tab-item.active, .bar-tab .tab-item:active {
+  	color: #FF5722;
+}
+/*修改选项卡的active的颜色*/
+.buttons-tab .button.active{
+	color: #FF5722;
+	border-color: #FF5722;
+}
+/*修改卡片的样式*/
+.card{
+	margin: .5rem 0;
+	border-radius: 0;
+	box-shadow: 0 0 0;
+}
+.card .card-header{
+	font-size: .75rem;
+}
+
+.person-micon{
+	width: 1.4rem;
+	height: 1.4rem;
+	border-radius: 50%;
+	margin-right: .25rem;
+}
+.person-icon{
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 50%;
+}
+/*多行省略*/
+.textRowHidden{
+	display: -webkit-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+/*单行省略*/
+.textColHidden{
+	display: block; 
+	white-space: nowrap:
+	text-overflow: ellipsis;
+}
+
+a{
+	color: #3d4145;
+}
+.ml10{
+	margin-left: .5rem;
+}
+.orange{
+	color: #FF5722 !important;
+}
+.bgOrange{
+	background-color: #FF5722 !important;
+	color: #FFFFFF !important;
+}
+.btn-default{
+	border:1px solid #DDDDDD !important;
+	background-color: #FFFFFF !important;
+	color: #3d4145 !important;
+}
+
+.grev{
+   color: #999999;	
+}
+.bgGrev{
+	background-color: #E6E6EA;
+}
+
+.white{
+	color: #FFFFFF !important;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.menu{
+	background-color: #FFFFFF;
+}
+.menu{
+	background-color: #FFFFFF;
+	text-align: center;
+	padding: .5rem 0;
+}
+.menu a{
+	display: block;
+}
+.menu .menu-icon{
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	margin-bottom: .25rem;
+}
+.menu .menu-text{
+	font-size: .7rem;
+	color: #3d4145;
+}
+.news{
+	border-top:1px solid #f2f2f2;
+	background-color: #FFFFFF;
+  	border-bottom: 1px solid #F2F2F2;
+	height: 2rem;
+	line-height: 2rem;
+	text-align: center;
+}
+.news .news-icon{
+	padding-right: .5rem;
+	border-right:1px solid #f2f2f2;
+}
+#news_list_title a{
+	display: block;
+	color: #3d4145;
+	font-size: .75rem;
+}
+.personinfo{
+	width: 100%;
+	height:9rem;
+	background:#FFFFFF url(../img/vipbg.png) no-repeat center;
+	background-size: 100% 100%;
+	display: -webkit-flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.personinfo .icon{
+	color: #FFFFFF;
+	line-height: 1.2rem;
+	font-size: 1rem;
+	padding: .5rem .1rem;
+	z-index: 20;
+}
+.personinfo .icon-left{
+	position: absolute;
+	top: 0;
+	left: .75rem;
+}
+.personinfo .icon-star{
+	position: absolute;
+	top: 0;
+	right: .75rem;
+}
+.list-block .item-media .item-media-icon{
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+}
+.classify{
+	margin: .5rem 0;
+	background-color: #FFFFFF;
+	padding: .75rem;
+	font-size: .7rem;
+	text-align: center;
+}
+.classify .classify-item{
+	width: 25%;
+	float: left;
+	margin-bottom: .25rem;
+}
+.classify .classify-item img{
+	width: 2rem;
+	height: 2rem;
+	margin-bottom: .25rem;
+}
+.index-header{
+	padding: 0;
+}
+.index-header a{
+	color: #FFFFFF;
+	text-align: center;
+	display: block;
+}
+.index-header .index-header-icon{
+	position: static;
+	padding: 0;
+}
+.index-header .index-header-text{
+	font-size: .6rem;
+}
+.index-header .search-bar{
+	position: relative;
+	width: 100%;
+}
+.index-header .search-bar .search-input{
+	width: 100%;
+	background-color: #ff7e55;
+	border:none;
+	border-radius: 1.45rem;
+	box-sizing: border-box;
+	margin: .375rem 0;
+}
+.index-header .search-bar .index-header-search-icon{
+	position: absolute;
+	left: .5rem;
+	top:.5rem;
+	padding: 0;
+	
+}
+.index-header .search-bar .search-input-text{
+	position: absolute;
+	color: #ffad97;
+	left: 1.8rem;
+	top: .65rem;
+	z-index: 20;
+	font-size: .6rem;
+}
+.video-icon{
+	display: inline-block;
+    border: 1px solid #3d4145;
+    transform: rotate(-90deg);
+    border-radius: .1rem;
+    margin-left: .2rem;
+    font-size: .7rem;
+}
+
+.list-block .case-mark{
+	height: 2.2rem;
+	background-color: rgba(0,0,0,.6);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	z-index: 19;
+}
+.list-block .case-title{
+	height: 2.2rem;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	z-index: 20;
+	text-align: center;
+	line-height: 2.2rem;
+	padding: 0 .75rem;
+	color: #FFFFFF;
+}
+.service{
+	background-color: #FFFFFF;
+	padding: .75rem;
+	font-size: .7rem;
+}
+.service .service-title{
+	font-size: .8rem;
+	font-weight: bold;
+	margin-bottom: .25rem;
+}
+.service .service-dec{
+    color: #8d8d8d;
+}
+
+.service .service-price{
+	color: #FF5722;
+	font-size: 1rem;
+}
+.points-list li{
+	float: left;
+    width: 25%;
+    text-align: center;
+    border: 1px solid #DDDDDD;
+    margin: 0 .5rem .5rem 0;
+    padding: .25rem;
+    border-radius: 1rem;
+}
+.font14{
+	font-size: .7rem !important;
+}
+.padding0{
+	padding: 0 !important;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="Description" content="" />
+		<meta name="Keywords" content="" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<!--清理缓存-->
+		<meta http-equiv="Cache-Control" content="no-cache">
+		<!--清理缓存-->
+		<meta http-equiv="Expires" content="0">
+		<!--清理缓存-->
+		<meta name="format-detection" content="telephone=no" />
+		<!--忽略将页面中的数字识别为电话号码-->
+		<meta name="format-detection" content="email=no" />
+		<!--忽略Android平台中对邮箱地址的识别-->
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<!--当网站添加到主屏幕快速启动方式，可隐藏地址栏，仅针对ios的safari-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<!--将网站添加到主屏幕快速启动方式，仅针对ios的safari顶端状态条的样式-->
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/sm.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/myCustom.css" />
+		<link rel="stylesheet" type="text/css" href="css/sm-extend.min.css" />
+		<link href="images/" rel="SHORTCUT ICON" />
+		<!--小图标-->
+		<script src="js/zepto_1.1.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/sm.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/sm-extend.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/fx.js"></script>
+		<title>易猪家居装修风水服务平台</title>
+	</head>
+	<body>
+		<div class="page" id="service">
+				<!-- 标题栏 -->
+			<header class="bar bar-nav">
+				<a href="#" class="pull-left white back"><span class="icon icon-left"></span></a>
+				<h1 class="title bgOrange">风水堪舆</h1>
+			</header>
+			<div class="bar bar-tab">
+			        <a href="javascript:;" class="tab-item external">价格：<span class="orange">¥ 888</span></a>
+			        <a href="placeOrder.html" class="tab-item external bgOrange">购买</a>
+				</div>
+			
+			<!--内容区-->
+			<div class="content">
+				<img src="img/geo01.png" style="width: 100%;height: 8.5rem;">
+				<div class="service">
+					<div class="service-title">商品描述商品标题</div>
+					<div class="service-dec">商品描述商品描述商品描述商品描述商品描述商品描述商品描述商品描述商品描述</div>
+					<div class="service-price">¥ 888</div>				
+				</div>
+				<div class="content-block-title" style="margin-top: .75rem;">客户评价</div>
+			    <div class="card" style="margin:0 0 .5rem 0;border-radius: 0;box-shadow: 0 0 0;">
+					<div class="card-header">
+						<a href="#" class="person-bar">
+							<img src="img/vip.png" class="person-icon" />
+							<span class="ml10">姓名</span>
+						</a>
+						<span class="orange pull-right">							
+							<span class="icon icon-star orange"></span>
+							<span class="icon icon-star orange"></span>
+							<span class="icon icon-star orange"></span>
+							<span class="icon icon-star orange"></span>
+							<span class="icon icon-star orange"></span>
+						</span>
+					</div>					
+					<div class="card-content">
+						<div class="card-content-inner">头和尾的卡片。卡头是用来显示一些额外的信息，或自定义操作卡标题和页脚。</div>
+					</div>		
+				</div>
+				<div class="card" style="margin:0 0 .5rem 0;border-radius: 0;box-shadow: 0 0 0;">
+					<div class="card-header">
+						<a href="#" class="person-bar">
+							<img src="img/vip.png" class="person-icon" />
+							<span class="ml10">姓名</span>
+						</a>
+						<span class="orange pull-right">							
+							<span class="icon icon-star orange"></span>
+							<span class="icon icon-star orange"></span>
+							<span class="icon icon-star orange"></span>
+							<span class="icon icon-star orange"></span>
+							<span class="icon icon-star orange"></span>
+						</span>
+					</div>					
+					<div class="card-content">
+						<div class="card-content-inner">头和尾的卡片。卡头是用来显示一些额外的信息，或自定义操作卡标题和页脚。</div>
+					</div>		
+				</div>
+				
+			</div>
+			
+		</div>
+		<script>
+			$(function(){
+		   		$(document).on("pageInit", "#service", function(e, id, page) {
+						console.log(page);
+				});
+				$.init();
+		   	});
+		</script>
+			
+		
+	</body>
+</html>

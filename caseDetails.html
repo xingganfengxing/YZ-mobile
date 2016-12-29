@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="Description" content="" />
+		<meta name="Keywords" content="" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<!--清理缓存-->
+		<meta http-equiv="Cache-Control" content="no-cache">
+		<!--清理缓存-->
+		<meta http-equiv="Expires" content="0">
+		<!--清理缓存-->
+		<meta name="format-detection" content="telephone=no" />
+		<!--忽略将页面中的数字识别为电话号码-->
+		<meta name="format-detection" content="email=no" />
+		<!--忽略Android平台中对邮箱地址的识别-->
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<!--当网站添加到主屏幕快速启动方式，可隐藏地址栏，仅针对ios的safari-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<!--将网站添加到主屏幕快速启动方式，仅针对ios的safari顶端状态条的样式-->
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/sm.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/myCustom.css" />
+		<link rel="stylesheet" type="text/css" href="css/sm-extend.min.css" />
+		<link href="images/" rel="SHORTCUT ICON" />
+		<!--小图标-->
+		<script src="js/zepto_1.1.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/sm.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/sm-extend.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/fx.js"></script>
+		<title>易猪家居装修风水服务平台</title>
+	</head>
+	<body>
+		
+		<div class="page" id="caseDetails">
+			<!-- 标题栏 -->
+			<header class="bar bar-nav">
+				<a href="#" class="pull-left white back"><span class="icon icon-left"></span></a>
+				<h1 class="title bgOrange">案例详情</h1>
+				<a href="#" class="pull-right white"><span class="icon icon-star"></span></a>
+			</header>
+			<div class="bar bar-tab" style="font-size: .7rem;">
+			        <a href="masterDetails.html" class="tab-item external"><img src="img/vip.png" class="person-micon"/><span>风水师姓名</span></a>
+			        <a href="book.html" class="tab-item external bgOrange">预约TA</a>
+			</div>
+			
+			<!--内容-->
+			<div class="content">
+				<img src="img/vipbg.png" style="width: 100%;height: 8.5rem;"/>
+				<div class="service">
+					<div class="service-title">案例标题案例标题案例标题案例标题</div>
+					<div class="service-dec">风水师</div>
+				</div>
+				<div class="content-padded" style="color: #A0A0A0;font-size: .75rem;">
+				    	内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容
+				    	内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容
+				    	内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容
+				    	内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容
+				    	内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容
+				</div>
+			</div>
+			
+		</div>
+		
+		
+		<script>
+			$(function(){
+				$(document).on("caseDetails", "#masterDetails", function(e, id, page) {
+						console.log(page);
+					});
+					$.init();
+			});
+		</script>
+		
+	</body>
+</html>
